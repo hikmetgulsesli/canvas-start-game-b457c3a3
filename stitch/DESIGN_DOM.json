@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2026-11-07T22:10:05.520Z",
+  "screenCount": 1,
+  "screens": {
+    "70b6bf5524f44e2797d20c8e6bf7058c": {
+      "screenId": "70b6bf5524f44e2797d20c8e6bf7058c",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-1",
+            "flex",
+            "flex-col",
+            "justify-between",
+            "p-6",
+            "max-w-7xl",
+            "mx-auto",
+            "w-full"
+          ],
+          "childCount": 19
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start",
+          "classes": [
+            "px-8",
+            "py-3.5",
+            "rounded-xl",
+            "bg-cyan-500",
+            "hover:bg-cyan-400",
+            "text-slate-950",
+            "font-bold",
+            "text-base",
+            "shadow-lg",
+            "shadow-cyan-500/25",
+            "transition-all",
+            "duration-150",
+            "transform",
+            "active:scale-95",
+            "cursor-pointer"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Play Canvas Engine &copy; 2025",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Session Active",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {},
+      "fonts": [],
+      "layoutHints": {
+        "flexDirection": "col",
+        "gap": "3"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Start",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Play Canvas Engine &copy; 2025",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Session Active",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "Play Canvas Engine &copy; 2025",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Session Active",
+          "icon": null,
+          "active": true
+        }
+      ],
+      "title": "Play Canvas - Canvas Start Game"
+    }
+  }
+}
